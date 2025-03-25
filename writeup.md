@@ -120,9 +120,9 @@ MODULE_AUTHOR("CTF Participant");
 MODULE_DESCRIPTION("Kernel module reverse shell");
 
 Creating a Makefile for Compilation
-
+```
 We create a Makefile:
-
+```make
 obj-m += cyberavengers.o
 
 all:
